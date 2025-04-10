@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.img {
+    position: relative;
+    height: auto;
+}
+  
+.img::before {
+    content: "";
+    background-image: url('gedung.JPG');
+    height: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    filter: 
+        brightness(35%)
+        blur(0px)
+        saturate(1)
+    ;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+  
+.img .content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+nav {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.281) 0%, rgba(255,255,255,0) 100%);
+    transition: all 0.3s ease-in-out;
+}
+
+nav.sticky {
+    background-color: #ffffff !important;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255,255,255,0) 100%);
+    padding: 1px 2px 1px 2px !important;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 0 5px rgba(209, 209, 209, 0.466);
+}
+
+.sticky .nav-link,
+.sticky .fw-bold,
+.sticky .fa-solid {
+    color: rgb(68, 68, 68) !important;
+}
+
+.text-heading {
+    font-size: 700%;
+}
+
+.judul-two {
+    margin-left: 80px;
+}
+
+@media screen and (max-width: 960px) {
+    .text-heading {
+        font-size: 500%;
+    }
+
+    .judul-two {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 715px) {
+    .text-heading {
+        font-size: 400%;
+    } 
+
+    .text-lab {
+        font-size: 18px;
+    }
+
+    .judul-two {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    .text-heading {
+        font-size: 300%;
+    }    
+}
+
+@media screen and (max-width: 470px) {
+    .text-heading {
+        font-size: 255%;
+    }
+    .text-lab {
+        font-size: 16px;
+    }
+    .judul-two {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .text-heading {
+        font-size: 255%;
+    }
+
+    .text-lab {
+        font-size: 14px;
+    }
+
+    .judul-two {
+        margin-left: 40px;
+    }
+}
+
+.card-one {
+    padding-top: 180px;
+}
+
+.card-two {
+    padding-top: 80px;
+}
+
+.text-about {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+}
+
+.heading-about {
+    font-size: 45px;
+}
+
+@media screen and (max-width: 990px) {
+    .text-about {
+        text-align: start;
+        text-justify: inter-word;
+        font-size: 17px;
+    }
+}
+
+/* .circle {
+    color: rgba(0, 0, 0, 0.151);
+} */
