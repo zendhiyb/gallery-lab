@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: "Inter", sans-serif;
+    /* border: red 1px solid; */
 }
 
 .img {
@@ -43,7 +44,7 @@ nav {
 nav.sticky {
     background-color: #ffffff !important;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(255,255,255,0) 100%);
-    padding: 1px 2px 1px 2px !important;
+    /* padding: 1px 2px 1px 2px !important; */
     transition: all 0.3s ease-in-out;
     box-shadow: 2px 0 5px rgba(209, 209, 209, 0.466);
 }
@@ -60,6 +61,10 @@ nav.sticky {
 
 .judul-two {
     margin-left: 80px;
+}
+
+.heading-about {
+    font-size: 45px;
 }
 
 @media screen and (max-width: 960px) {
@@ -89,18 +94,36 @@ nav.sticky {
 @media screen and (max-width: 595px) {
     .text-heading {
         font-size: 300%;
-    }    
+    }
+
+    .heading-about {
+        font-size: 35px;
+    }
+
+    .heading-about-two {
+        font-size: 25px;
+    }
 }
 
 @media screen and (max-width: 470px) {
     .text-heading {
         font-size: 255%;
     }
+
     .text-lab {
         font-size: 16px;
     }
+
     .judul-two {
         margin-left: 60px;
+    }
+
+    .heading-about {
+        font-size: 25px;
+    }
+
+    .heading-about-two {
+        font-size: 20px;
     }
 }
 
@@ -132,10 +155,6 @@ nav.sticky {
     font-size: 17px;
 }
 
-.heading-about {
-    font-size: 45px;
-}
-
 @media screen and (max-width: 990px) {
     .text-about {
         text-align: start;
@@ -144,6 +163,89 @@ nav.sticky {
     }
 }
 
-/* .circle {
-    color: rgba(0, 0, 0, 0.151);
-} */
+.img-lab {
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    filter: 
+        brightness(80%)
+        blur(0px)
+        saturate(1)
+        contrast(110%)
+        grayscale(100%)
+    ;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.img-lab:hover {
+    filter: 
+        brightness(80%)
+        blur(0px)
+        saturate(1)
+        contrast(110%)
+    ;
+}
+
+.img-text {
+    min-height: 500px;
+}
+
+.img-gamed {
+    background-image: url('gamed.JPG');
+}
+
+.img-jarkom {
+    background-image: url('jarkom.JPG');
+}
+
+.img-algo {
+    background-image: url('algo.JPG');
+}
+
+.img-kompu {
+    background-image: url('kompu.JPG');
+}
+
+.img-sc {
+    background-image: url('sc.JPG');
+}
+
+.img-rpl {
+    background-image: url('rpl.JPG');
+}
+
+.img-rbc {
+    background-image: url('rbc.JPG');
+}
+
+.img-video {
+    background-image: url(gedung.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    filter: 
+        brightness(80%)
+        contrast(100%)
+        grayscale(100%)
+    ;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-video:hover {
+    filter: 
+        brightness(80%)
+        contrast(100%)
+        grayscale(50%)
+    ;
+}
+
+.icon-hover {
+    font-size: 50px;
+    transition: all 0.2s ease-in-out;
+}
+
+.icon-hover:hover {
+    color: rgb(255, 255, 255);
+    transition: all 0.2s ease-in-out;
+}
