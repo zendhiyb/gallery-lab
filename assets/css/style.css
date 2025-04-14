@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: "Inter", sans-serif;
+    box-sizing: border-box;
     /* border: red 1px solid; */
 }
 
@@ -67,6 +68,61 @@ nav.sticky {
     font-size: 45px;
 }
 
+.mobile-gallery {
+    display: none !important;
+}
+
+.dekstop-gallery {
+    display: contents;
+}
+
+.limit-title {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.limit-title:hover {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
+.img-video {
+    background-image: url(gedung.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    filter: 
+        brightness(80%)
+        contrast(100%)
+        grayscale(100%)
+    ;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-video:hover {
+    filter: 
+        brightness(80%)
+        contrast(100%)
+        grayscale(50%)
+    ;
+}
+
+@media screen and (max-width: 1040px) {
+    .mobile-gallery {
+        display: contents !important;
+    }
+
+    .dekstop-gallery {
+        display: none !important;
+    }
+
+    .img-video {
+        height: 470px !important;
+    }
+}
+
 @media screen and (max-width: 960px) {
     .text-heading {
         font-size: 500%;
@@ -89,6 +145,10 @@ nav.sticky {
     .judul-two {
         margin-left: 80px;
     }
+
+    .img-video {
+        height: 370px !important;
+    }
 }
 
 @media screen and (max-width: 595px) {
@@ -102,6 +162,10 @@ nav.sticky {
 
     .heading-about-two {
         font-size: 25px;
+    }
+
+    .img-video {
+        height: 270px !important;
     }
 }
 
@@ -124,6 +188,10 @@ nav.sticky {
 
     .heading-about-two {
         font-size: 20px;
+    }
+
+    .img-video {
+        height: 190px !important;
     }
 }
 
@@ -219,26 +287,6 @@ nav.sticky {
     background-image: url('rbc.JPG');
 }
 
-.img-video {
-    background-image: url(gedung.JPG);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
-    filter: 
-        brightness(80%)
-        contrast(100%)
-        grayscale(100%)
-    ;
-    transition: all 0.3s ease-in-out;
-}
-
-.img-video:hover {
-    filter: 
-        brightness(80%)
-        contrast(100%)
-        grayscale(50%)
-    ;
-}
 
 .icon-hover {
     font-size: 50px;
