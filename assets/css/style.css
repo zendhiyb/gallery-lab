@@ -88,6 +88,18 @@ nav.sticky {
     overflow: visible;
 }
 
+.limit-about {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.limit-about:hover {
+    -webkit-line-clamp: unset;
+    overflow: visible;
+}
+
 .img-video {
     background-image: url(gedung.JPG);
     background-size: cover;
