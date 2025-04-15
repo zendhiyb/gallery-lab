@@ -179,6 +179,10 @@ nav.sticky {
     .img-video {
         height: 270px !important;
     }
+
+    /* nav {
+        display: none !important;
+    } */
 }
 
 @media screen and (max-width: 470px) {
