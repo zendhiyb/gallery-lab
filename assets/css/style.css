@@ -121,6 +121,10 @@ nav.sticky {
     ;
 }
 
+.text-sosmed {
+    font-size: 17px !important;
+}
+
 @media screen and (max-width: 1040px) {
     .mobile-gallery {
         display: contents !important;
@@ -209,6 +213,10 @@ nav.sticky {
     .img-video {
         height: 190px !important;
     }
+
+    .text-sosmed {
+        font-size: 14px !important;
+    }
 }
 
 @media screen and (max-width: 395px) {
@@ -222,6 +230,10 @@ nav.sticky {
 
     .judul-two {
         margin-left: 40px;
+    }
+
+    .text-sosmed {
+        font-size: 12px !important;
     }
 }
 
