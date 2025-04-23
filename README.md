@@ -1,38 +1,37 @@
-<p align="center">
-  <img src="https://zendhiyb.github.io/gallery-lab/assets/banner.png" alt="Gallery Lab Banner" width="100%">
-</p>
+# 📸 Gallery Lab
 
-# Gallery Lab - Informatics Laboratory UMSIDA
+Gallery Lab adalah sebuah website informasi berbasis web yang menampilkan berbagai laboratorium yang terdapat di Program Studi Informatika Universitas Muhammadiyah Sidoarjo (UMSIDA). Proyek ini menampilkan tujuh laboratorium yang mendukung kegiatan belajar mengajar, praktik, dan penelitian mahasiswa.
 
-Welcome to **Gallery Lab**, a web-based information platform showcasing the various Informatics Laboratories at Universitas Muhammadiyah Sidoarjo (UMSIDA). This project presents seven dedicated labs that support academic learning, hands-on practice, and research for Informatics students.
-
-🌐 **Live Demo**: [https://zendhiyb.github.io/gallery-lab/](https://zendhiyb.github.io/gallery-lab/)
+🔗 **Demo Live**: [https://zendhiyb.github.io/gallery-lab/](https://zendhiyb.github.io/gallery-lab/)
 
 ---
 
-## 📌 About
+## 🧾 Table of Contents
 
-Gallery Lab was developed to provide information and visual documentation of each lab's function, equipment, and educational support. The platform includes:
-
-- Game and Multimedia Lab
-- Computer Network Lab
-- Algorithm and Programming Lab
-- Computing Lab
-- Intelligent Systems Lab
-- Software Engineering Lab
-- Research and Reading Room
-
-Each section highlights the purpose, features, and photos of the corresponding laboratory, helping new students and visitors understand the facilities available.
+- [About](#about)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [License](#license)
+- [Contact](#contact)
 
 ---
 
-## 🚀 Features
+## 📖 About
 
-- Responsive single-page design
-- Laboratory information with images
-- Clear lab descriptions and functions
-- Embedded video section
-- Contact and social links
+Gallery Lab dibuat untuk memberikan informasi lengkap mengenai fasilitas laboratorium yang tersedia di lingkungan Informatika UMSIDA. Website ini menyajikan gambar, deskripsi, dan fungsi masing-masing lab, sehingga dapat membantu mahasiswa baru dan pengunjung mengenal lebih dekat laboratorium yang ada.
+
+---
+
+## ✨ Features
+
+- Desain responsif dan modern
+- Informasi lengkap tentang 7 laboratorium
+- Galeri gambar tiap lab
+- Navigasi sederhana dan user-friendly
+- Dukungan tampilan mobile dan desktop
 
 ---
 
@@ -42,36 +41,9 @@ Each section highlights the purpose, features, and photos of the corresponding l
 - CSS3  
 - JavaScript  
 - Bootstrap 5  
-- GitHub Pages (for deployment)
+- GitHub Pages (untuk deployment)
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
-
----
-
-## ✨ Features
-
-- Galeri laboratorium Informatika UMSIDA dengan foto dan deskripsi lengkap
-- Navigasi halaman yang responsif dan mudah digunakan
-- Desain bersih dan profesional menggunakan Bootstrap 5
-- Dukungan untuk tampilan desktop dan mobile
-
----
-
-## 📸 Preview
-
-![Preview Website](https://zendhiyb.github.io/gallery-lab/assets/preview.png)
-
----
-
-## 👨‍💻 Author
-
-Created with ❤️ by [Zendhi Yuna Burnama](https://github.com/zendhiyb)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
