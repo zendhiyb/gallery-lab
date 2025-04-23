@@ -44,3 +44,30 @@ Each section highlights the purpose, features, and photos of the corresponding l
 
 ## 📂 Project Structure
 
+
+---
+
+## ✨ Features
+
+- Galeri laboratorium Informatika UMSIDA dengan foto dan deskripsi lengkap
+- Navigasi halaman yang responsif dan mudah digunakan
+- Desain bersih dan profesional menggunakan Bootstrap 5
+- Dukungan untuk tampilan desktop dan mobile
+
+---
+
+## 📸 Preview
+
+![Preview Website](https://zendhiyb.github.io/gallery-lab/assets/preview.png)
+
+---
+
+## 👨‍💻 Author
+
+Created with ❤️ by [Zendhi Yuna Burnama](https://github.com/zendhiyb)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
