@@ -6,16 +6,6 @@ Gallery Lab adalah sebuah website informasi berbasis web yang menampilkan berbag
 
 🔗 **Demo Live**: [https://zendhiyb.github.io/gallery-lab/](https://zendhiyb.github.io/gallery-lab/)
 
-## Table of Contents
-
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Installation](#installation)
-- [License](#license)
-- [Contact](#contact)
-
 ## Features
 
 - Desain responsif dan modern  
@@ -31,6 +21,4 @@ Gallery Lab adalah sebuah website informasi berbasis web yang menampilkan berbag
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)  
 [![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
-
-## Project Structure
 
