@@ -1,4 +1,4 @@
-![App Screenshot](https://github.com/zendhiyb/gallery-lab/blob/21ebf64893af5c92cce73e7f2be025222f84d1fc/image/image.png)
+![App Screenshot](https://github.com/zendhiyb/gallery-lab/blob/0a20923b77755ca3ddee6957e1a6425dab558537/image/image.png)
 
 
 
