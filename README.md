@@ -6,11 +6,8 @@ Gallery Lab adalah sebuah website informasi berbasis web yang menampilkan berbag
 
 🔗 **Demo Live**: [https://zendhiyb.github.io/gallery-lab/](https://zendhiyb.github.io/gallery-lab/)
 
----
-
 ## 🧾 Table of Contents
 
-- [About](#about)
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
@@ -19,33 +16,21 @@ Gallery Lab adalah sebuah website informasi berbasis web yang menampilkan berbag
 - [License](#license)
 - [Contact](#contact)
 
----
-
-## 📖 About
-
-Gallery Lab dibuat untuk memberikan informasi lengkap mengenai fasilitas laboratorium yang tersedia di lingkungan Informatika UMSIDA. Website ini menyajikan gambar, deskripsi, dan fungsi masing-masing lab, sehingga dapat membantu mahasiswa baru dan pengunjung mengenal lebih dekat laboratorium yang ada.
-
----
-
 ## ✨ Features
 
-- Desain responsif dan modern
-- Informasi lengkap tentang 7 laboratorium
-- Galeri gambar tiap lab
-- Navigasi sederhana dan user-friendly
+- Desain responsif dan modern  
+- Informasi lengkap tentang 7 laboratorium  
+- Galeri gambar tiap lab  
+- Navigasi sederhana dan user-friendly  
 - Dukungan tampilan mobile dan desktop
-
----
 
 ## 🛠️ Tech Stack
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Bootstrap 5  
-- GitHub Pages (untuk deployment)
-
----
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)  
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)  
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)  
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)  
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-121013?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
 
 ## 📁 Project Structure
 
