@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://zendhiyb.github.io/gallery-lab/assets/banner.png" alt="Gallery Lab Banner" width="100%">
+</p>
+
 # Gallery Lab - Informatics Laboratory UMSIDA
 
 Welcome to **Gallery Lab**, a web-based information platform showcasing the various Informatics Laboratories at Universitas Muhammadiyah Sidoarjo (UMSIDA). This project presents seven dedicated labs that support academic learning, hands-on practice, and research for Informatics students.
